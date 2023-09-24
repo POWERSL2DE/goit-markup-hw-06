@@ -13,12 +13,13 @@
 
 
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/index.css">
   </head>
   
   
   <body>
 
-    <!-- Header page -->
+<!-- HEADER PAGE -->
 
     <header class="header-page">
       <div class="container header-container">
@@ -30,6 +31,12 @@
                     <li><a class="studio-link" href="">Contacts</a></li>
                 </ul>
         </nav> 
+
+        <button class="open-mobile-menu-button">
+          <svg class="open-mobile-menu-icon" width="28" height="28" aria-label="mobile menu open icon">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
     
         <address class="contacts-section">
             <ul class="contacts-list">
@@ -46,17 +53,17 @@
 
     <!-- Hero section (1) -->
 
-    <section class="hero-section">
+   <section class="hero-section">
       <div class="container hero-container">
         <h1 class="hero-title">Effective Solutions <br>for Your Business</h1>
         <button class="order-service-button" type="button">Order Service</button>
       </div>
-    </section>
+    </section> 
 
 
     <!-- Benefits section (2) -->
 
-    <section class="benefits-section">
+   <section class="benefits-section">
       <div class="container">
         <h2 class="visually-hidden">Benefits</h2>
         
@@ -114,11 +121,11 @@
       </ul>
 
     </div>
-    </section>
+    </section> 
 
 <!-- Our team section (3) -->
 
-    <section class="team-section">
+  <section class="team-section">
     <div class="container">
       <h2 class="team-title">Our Team</h2>
     
@@ -497,10 +504,10 @@
   </footer>
 
 
-<!-- Modal window -->
-  <div class="modal-container">
-    <div class="modal-window">
-      <button class="close-window-button" type="button">
+<!-- MODAL WINDOW -->
+  <!-- <div class="modal-container1">
+    <div class="modal-window1">
+      <button class="close-window-button1" type="button">
         <svg class="close-icon" width="8" height="8">
           <use href="./images/icons.svg#icon-close-black"></use>
         </svg>
@@ -567,7 +574,32 @@
 
     </form>
     </div>
-  </div>
+  </div> -->
+
+<!-- MENU WINDOW MOBILE -->
+
+    <div class="mobile-menu is open">  
+      <button class="mobile-menu-close-button">
+        <svg class="mobile-menu-close-icon" width="24" height="24" aria-label="mobile menu close icon"> 
+          <use href="./images/icons.svg#icon-close-black"></use>
+        </svg>
+      </button>
+      
+      <nav>
+        <ul>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+        </ul>
+      </nav>
+
+      <address class="contacts-section">
+        <ul class="contacts-list">
+            <li><a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="contacts" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        </ul>
+      </address>
+    </div>
 
 
   </body>
