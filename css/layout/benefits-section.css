@@ -1,0 +1,104 @@
+/* BENEFITS SECTION */
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+    .benefits-section {
+        margin: 97px 16px;
+    }
+
+    .menu-benefits {
+        display: flex;
+        flex-direction: column;
+        gap: 72px;
+        margin: 0 auto;
+    }
+
+    .benefits-icon {
+        display: none;
+    }
+
+    .benefits-title-list {
+        display: flex;
+        color: var(--NAVY-BLUE, #2E2F42);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px; 
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+    }
+
+    .benefits-text {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis: calc((100% - 10px) / 3);
+        gap: 10px;
+        color: var(--SLATE, #434455);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; 
+        letter-spacing: 0.32px;
+    }
+
+}
+
+
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+
+}
+
+
+
+/* DESKTOP */
+@media screen and (min-width: 1158px) {
+    .benefits-section {
+        padding: 120px 0;
+    }
+
+    .menu-benefits {
+        display: flex;
+        gap: 24px;
+        margin: 0; 
+        padding-left: 0;
+    }
+
+    .benefits-list {
+        width: calc((100% - 72px) / 4);
+    }
+
+    .benefits-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 112px;
+        width: 264px;
+        background-color: #f4f4fd;
+        border: 1px solid #8E8F99;
+        border-radius: 4px;
+        margin-bottom: 8px;
+    }
+
+
+    .benefits-title-list {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42; 
+        margin-bottom: 8px;
+    }
+
+    .benefits-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+    }
+}

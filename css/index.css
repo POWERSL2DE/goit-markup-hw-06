@@ -7,4 +7,5 @@
 
 /* Layout */
 @import "./layout/header.css";
-@import "";
+@import "./layout/hero-section.css";
+@import "./layout/benefits-section.css";

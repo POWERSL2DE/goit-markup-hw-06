@@ -1,5 +1,5 @@
 
-/* Header page */
+/* HEADER PAGE */
 
  .header-page {
     border-bottom: 1px solid #e7e9fc;
@@ -118,9 +118,9 @@
     color: #404bbf;
 } 
 
-/* Main page */
+/* MAIN PAGE */
 
-/* Section 1 (Hero) */
+/* SECTION 1 (HERO) */
 
     .hero-section {
         background-color: #2e2f42;
@@ -171,7 +171,7 @@
         background-color: #404BBF;
     }
 
-/* Section 2 */
+/* SECTION 2 */
 
     .benefits-section{
         padding: 120px 0;
@@ -217,7 +217,7 @@
         color: #434455;
     }
 
-/* Section 3 */
+/* SECTION 3 */
 
     .team-section {
         background-color: #F4F4FD;
@@ -472,7 +472,7 @@
         fill: #f4f4fd;
     }
 
-/* Last third container in this footer */
+/* LAST THIS CONTAINER IN FOOTER */
 
     .subscribe-container {
         margin-left: 80px;
@@ -555,6 +555,11 @@
         height: 100%;
         background-color: rgba(46, 47, 66, 0.4);
         transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transform: translateX(100%);
+    }
+
+    .modal-container.is-open {
+        transform: translateX(0%);
     }
 
     .modal-window {
@@ -572,6 +577,7 @@
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
         padding: 72px 24px 24px 24px;
     }
+
 
     .close-window-button {
         position: absolute;
