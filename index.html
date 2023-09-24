@@ -21,7 +21,7 @@
 
 <!-- HEADER PAGE -->
 
-    <header class="header-page">
+  <header class="header-page">
       <div class="container header-container">
         <nav class="page-nav">
             <a class="web-logo" href="./index.html">Web<span class="studio-logo">Studio</span></a>
@@ -31,12 +31,6 @@
                     <li><a class="studio-link" href="">Contacts</a></li>
                 </ul>
         </nav> 
-
-        <button class="open-mobile-menu-button">
-          <svg class="open-mobile-menu-icon" width="28" height="28" aria-label="mobile menu open icon">
-            <use href="./images/icons.svg#icon-burger"></use>
-          </svg>
-        </button>
     
         <address class="contacts-section">
             <ul class="contacts-list">
@@ -44,11 +38,89 @@
                 <li><a class="contacts" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
+
+        <button class="open-mobile-menu-button">
+          <svg class="open-mobile-menu-icon" width="28" height="28" aria-label="mobile menu open icon">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+        
       </div>
 
-    </header>
 
-    <!-- Main page -->
+<!-- MENU WINDOW MOBILE -->
+
+   <div class="mobile-menu">     <!-- You can use additional class "is-open" -->
+      <button class="mobile-menu-close-button">
+        <svg class="mobile-menu-close-icon" width="24" height="24" aria-label="mobile menu close icon"> 
+          <use href="./images/icons.svg#icon-close-black"></use>
+        </svg>
+      </button>
+  
+    
+      <nav class="page-nav-mobile">
+        <ul class="menu-nav-mobile">
+          <li><a class="studio-link-mobile studio-link-mobile-active" href="./index.html">Studio</a></li>
+          <li><a class="studio-link-mobile" href="">Portfolio</a></li>
+          <li><a class="studio-link-mobile" href="">Contacts</a></li>
+        </ul>
+      </nav>
+    
+
+      <address class="contacts-section-mobile">
+        <ul class="contacts-list-mobile">
+           <li><a class="contacts-mobile-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+           <li><a class="contacts-mobile-tel" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        </ul>
+      </address>
+
+
+      <!-- First social logo -->
+      <div class="social-networks-mobile">
+        <ul class="social-networks-list-mobile">
+          <li class="social-networks-list-item">
+              <a class="social-networks-list-item-link" href="">
+                <svg class="social-networks-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+          </li>
+
+      <!-- Second Social logo -->
+        <li class="social-networks-list-item">
+          <a class="social-networks-list-item-link" href="">
+            <svg class="social-networks-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+
+      <!-- Third Social logo -->
+        <li class="social-networks-list-item">
+          <a class="social-networks-list-item-link" href="">
+            <svg class="social-networks-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+
+      <!-- Fourth Social logo -->
+         <li class="social-networks-list-item">
+          <a class="social-networks-list-item-link" href="">
+            <svg class="social-networks-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+         </li>
+        </ul> 
+      </div> 
+
+    </div>
+
+
+  </header>
+
+<!-- Main page -->
     <main>
 
     <!-- Hero section (1) -->
@@ -575,31 +647,6 @@
     </form>
     </div>
   </div> -->
-
-<!-- MENU WINDOW MOBILE -->
-
-    <div class="mobile-menu is open">  
-      <button class="mobile-menu-close-button">
-        <svg class="mobile-menu-close-icon" width="24" height="24" aria-label="mobile menu close icon"> 
-          <use href="./images/icons.svg#icon-close-black"></use>
-        </svg>
-      </button>
-      
-      <nav>
-        <ul>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-        </ul>
-      </nav>
-
-      <address class="contacts-section">
-        <ul class="contacts-list">
-            <li><a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="contacts" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-        </ul>
-      </address>
-    </div>
 
 
   </body>
