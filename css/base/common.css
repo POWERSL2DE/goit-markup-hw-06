@@ -2,14 +2,18 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 img {
      display: block;
+     max-width: 100%;
 }
 
 
-ul {
+ul, ol {
     list-style-type: none;
     margin: 0;
     padding-left: 0;
@@ -24,3 +28,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     padding: 0;
 }
+
+button {
+    cursor: pointer;
+  }

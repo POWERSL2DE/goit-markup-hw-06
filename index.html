@@ -26,9 +26,9 @@
         <nav class="page-nav">
             <a class="web-logo" href="./index.html">Web<span class="studio-logo">Studio</span></a>
                 <ul class="menu-nav">
-                    <li><a class="studio-link studio-link-active" href="./index.html">Studio</a></li>
-                    <li><a class="studio-link" href="">Portfolio</a></li>
-                    <li><a class="studio-link" href="">Contacts</a></li>
+                    <li class="menu-nav-item"><a class="studio-link studio-link-active" href="./index.html">Studio</a></li>
+                    <li class="menu-nav-item"><a class="studio-link" href="">Portfolio</a></li>
+                    <li class="menu-nav-item"><a class="studio-link" href="">Contacts</a></li>
                 </ul>
         </nav> 
     
@@ -51,7 +51,7 @@
 <!-- MOBILE WINDOW MENU -->
 
    <div class="mobile-menu">     <!-- You can use additional class "is-open" -->
-      <button class="mobile-menu-close-button">
+      <button class="mobile-menu-close-button" type="button">
         <svg class="mobile-menu-close-icon" width="24" height="24" aria-label="mobile menu close icon"> 
           <use href="./images/icons.svg#icon-close-black"></use>
         </svg>
@@ -60,17 +60,17 @@
     
       <nav class="page-nav-mobile">
         <ul class="menu-nav-mobile">
-          <li><a class="studio-link-mobile studio-link-mobile-active" href="./index.html">Studio</a></li>
-          <li><a class="studio-link-mobile" href="">Portfolio</a></li>
-          <li><a class="studio-link-mobile" href="">Contacts</a></li>
+          <li class="menu-nav-mobile-item"><a class="studio-link-mobile studio-link-mobile-active" href="./index.html">Studio</a></li>
+          <li class="menu-nav-mobile-item"><a class="studio-link-mobile" href="">Portfolio</a></li>
+          <li class="menu-nav-mobile-item"><a class="studio-link-mobile" href="">Contacts</a></li>
         </ul>
       </nav>
     
 
       <address class="contacts-section-mobile">
         <ul class="contacts-list-mobile">
-           <li><a class="contacts-mobile-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-           <li><a class="contacts-mobile-tel" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+           <li class="contacts-list-mobile-item"><a class="contacts-mobile-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+           <li class="contacts-list-mobile-item"><a class="contacts-mobile-tel" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
 
@@ -121,10 +121,9 @@
   </header>
 
 <!-- MAIN PAGE -->
-    <main>
-
+  
 <!-- HERO SECTION (1) -->
-
+  <main>
    <section class="hero-section">
       <div class="container hero-container">
         <h1 class="hero-title">Effective Solutions <br>for Your Business</h1>
@@ -407,7 +406,11 @@
         <ul class="menu-portfolio">
         <li class="portfolio-list">
           <div class="overlay-container">
-              <img src="./images/banking-app.jpg" alt="banking app image" width="360" height="300">
+              <img srcset="./images/banking-app-mobile.jpg 288w, ./images/banking-app-mobile@2x.jpg 576w, 
+              ./images/banking-app-tablet.jpg 356w, ./images/banking-app-tablet@2x.jpg 712w, 
+              ./images/banking-app-desktop.jpg 360w, ./images/banking-app-desktop@2x.jpg 720w,"
+
+              src="./images/banking-app.jpg" alt="banking app image" width="360" height="300">
               <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App 
                 · Exotic Fruit Ecommerce App · Cloud Storage App</p>
           </div>
@@ -422,7 +425,10 @@
       <!-- Second card  -->
         <li class="portfolio-list">
           <div class="overlay-container">
-            <img src="./images/cashless-payment.jpg" alt="cashless payment image" width="360" height="300">
+            <img srcset="./images/cashless-payment-mobile.jpg 288w, ./images/cashless-payment-mobile@2x.jpg 576w,
+            ./images/cashless-payment-tablet.jpg 356w, ./images/cashless-payment-tablet@2x.jpg 712w,
+            ./images/cashless-payment-desktop.jpg 360w, ./images/cashless-payment-desktop@2x.jpg 720w" 
+            src="./images/cashless-payment.jpg" alt="cashless payment image" width="360" height="300">
             <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App 
               · Exotic Fruit Ecommerce App · Cloud Storage App</p>
           </div>
@@ -438,7 +444,10 @@
       <!-- Third card -->
         <li class="portfolio-list">
           <div class="overlay-container">
-              <img src="./images/meditation-app.jpg" alt="meditation app image" width="360" height="300">
+              <img srcset="./images/meditation-app-mobile.jpg 288w, ./images/meditation-app-mobile@2x.jpg 576w,
+              ./images/meditation-app-tablet.jpg 356w, ./images/meditation-app-tablet@2x.jpg 712w,
+              ./images/meditation-app-desktop.jpg 360w, ./images/meditation-app-desktop@2x.jpg 720w"
+              src="./images/meditation-app.jpg" alt="meditation app image" width="360" height="300">
               <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App 
                 · Exotic Fruit Ecommerce App · Cloud Storage App</p>
           </div> 
@@ -454,7 +463,10 @@
       <!-- Fourth card  -->
         <li class="portfolio-list">
         <div class="overlay-container">
-            <img src="./images/taxi-service.jpg" alt="taxi service image" width="360" height="300">
+            <img srcset="./images/taxi-service-mobile.jpg 288w, ./images/taxi-service-mobile@2x.jpg 576w,
+            ./images/taxi-service-tablet.jpg 356w, ./images/taxi-service-tablet@2x.jpg 712w,
+            ./images/taxi-service-desktop.jpg 360w, ./images/taxi-service-desktop@2x.jpg 720w" 
+            src="./images/taxi-service.jpg" alt="taxi service image" width="360" height="300">
             <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App 
               · Exotic Fruit Ecommerce App · Cloud Storage App</p>
         </div> 
@@ -470,7 +482,10 @@
       <!-- Fifth card  -->
         <li class="portfolio-list">
         <div class="overlay-container">
-            <img src="./images/screen-illustrations.jpg" alt="screen illustrations image" width="360" height="300">
+            <img srcset="./images/screen-illustrations-mobile.jpg 288w, ./images/screen-illustrations-mobile@2x.jpg 576w,
+            ./images/screen-illustrations-tablet.jpg 356w, ./images/screen-illustrations-tablet@2x.jpg 712w,
+            ./images/screen-illustrations-desktop.jpg 360w, ./images/screen-illustrations-desktop@2x.jpg 720w" 
+            src="./images/screen-illustrations.jpg" alt="screen illustrations image" width="360" height="300">
             <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App 
               · Exotic Fruit Ecommerce App · Cloud Storage App</p>
         </div> 
@@ -486,7 +501,10 @@
       <!-- Sixth card -->
         <li class="portfolio-list">
         <div class="overlay-container">
-            <img src="./images/online-courses.jpg" alt="online courses image" width="360" height="300">
+            <img srcset="./images/online-courses-mobile.jpg 288w, ./images/online-courses-mobile@2x.jpg 576w,
+            ./images/online-courses-tablet.jpg 356w, ./images/online-courses-tablet@2x.jpg 712w,
+            ./images/online-courses-desktop.jpg 360w, ./images/online-courses-desktop@2x.jpg 720w" 
+            src="./images/online-courses.jpg" alt="online courses image" width="360" height="300">
             <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App 
               · Exotic Fruit Ecommerce App · Cloud Storage App</p>
         </div> 

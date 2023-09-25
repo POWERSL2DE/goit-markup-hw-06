@@ -1,6 +1,12 @@
 /* MOBILE */
 @media screen and (max-width: 767px) {
+    .team-section {
+        background-color: #F4F4FD;
+    }
 
+    .mate:not(:last-child) {
+        margin-bottom: 72px;
+    }
 }
 
 
@@ -8,7 +14,15 @@
 /* TABLET */
 
 @media screen and (min-width: 768px) {
+    .menu-team {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 64px 24px;
+    }
 
+    .mate {
+        width: calc((100% - 24px) / 2);
+    }
 }
 
 
@@ -17,8 +31,6 @@
 
 
 @media screen and (min-width: 1158px) {
-    
-
 
     .team-section {
         background-color: #F4F4FD;
@@ -37,6 +49,7 @@
 
     .menu-team {
         display: flex;
+        flex-wrap: nowrap;
         gap: 24px;
         margin: 0; 
         padding-left: 0;
@@ -53,6 +66,7 @@
 
     .mate-container {
         padding: 32px 0;
+        display: block;
     }
 
     .social-list {
@@ -103,5 +117,7 @@
         letter-spacing: 0.02em;
         color: #434455;
         text-align: center;
+        margin-bottom: 8px;
     }
+    
 }
