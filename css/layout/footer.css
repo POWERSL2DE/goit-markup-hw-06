@@ -11,8 +11,8 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-bottom: 16px;
     display: block;
+    margin-bottom: 16px;
 }
    
 .studio-logotype {
@@ -171,6 +171,14 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .modal-modal-container {
+        display: none;
+    }
+
+    .modal-window {
+        display: none;
     }
 }
 

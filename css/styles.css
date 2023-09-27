@@ -306,7 +306,7 @@
 
 /* Section 4 */
 
-    .portfolio-section {
+     /* .portfolio-section { 
         padding-top: 120px; 
         padding-bottom: 120px;
     }
@@ -329,8 +329,6 @@
         margin: 0; 
         padding-left: 0;
     }
-
-    
 
     .portfolio-list:hover,
     .portfolio-list:focus {
@@ -387,11 +385,11 @@
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-    }
+    } */
 
 /* FOOTER PAGE */
 
-    .footer-page {
+     /* .footer-page { 
         background-color: #2e2f42;
         padding: 100px 0;
     }
@@ -467,7 +465,7 @@
 
     .social-networks-icon {
         fill: #f4f4fd;
-    }
+    } */
 
 /* LAST CONTAINER IN THIS FOOTER */
 
