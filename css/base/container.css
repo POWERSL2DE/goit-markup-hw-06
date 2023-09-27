@@ -12,9 +12,13 @@
 
 @media screen and (min-width: 768px) {
     .container {
+        width: 768px;
+        padding: 0px 16px;
+    }
+
+    .team-container,
+    .footer-container {
         width: 584px;
-        padding-left: 16px;
-        padding-right: 16px;
     }
 }
 

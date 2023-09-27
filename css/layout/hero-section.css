@@ -63,7 +63,17 @@
     }
 
     .hero-title {
+        width: 288px;
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px; 
+        letter-spacing: 0.72px;
         text-transform: capitalize;
+        margin-bottom: 72px;
     }
 
 
@@ -304,7 +314,21 @@
         }
     }
 
+    .hero-container {
+        margin: 0;
+        width: 100%;
+    }
+
     .hero-title {
+        width: 496px;
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px; 
+        letter-spacing: 1.12px;
         margin-bottom: 36px;
     }
     
