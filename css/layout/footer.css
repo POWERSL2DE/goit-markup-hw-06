@@ -253,6 +253,7 @@
 @media screen and (min-width: 768px) {
     .footer-container {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
         align-items: baseline;
     }
@@ -271,6 +272,7 @@
 
     .footer-information {
         margin-right: 24px;
+        margin-bottom: 72px;
     }
 
     .footer-page-text {
