@@ -191,8 +191,9 @@
     }
 
     .social-networks-list-mobile {
-        display: flex;
-        gap: 40px;
+        display: inline-flex;
+        align-items: flex-start;
+        gap: 40px
     }
 }
 
