@@ -253,8 +253,8 @@
 @media screen and (min-width: 768px) {
     .footer-container {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-direction: row;
+        align-items: baseline;
     }
 
     .footer-logo {
@@ -290,7 +290,7 @@
     }
 
     .subscribe-text {
-        text-align: center;
+        text-align: start;
     }
 
     .subscribe-form {
