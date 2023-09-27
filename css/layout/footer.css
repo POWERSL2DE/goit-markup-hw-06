@@ -179,7 +179,7 @@
     .footer-page-text {
         text-align: start;
         margin-bottom: 72px;
-        width: 288px;
+        max-width: 288px;
         color: #F4F4FD;
         font-family: Roboto;
         font-size: 16px;
@@ -210,6 +210,11 @@
         margin: 0;
     }
 
+    .subscribe-form { 
+        display: block;
+        gap: 0px; 
+    } 
+
     .subscribe-text {
         text-align: center;
     }
@@ -220,15 +225,16 @@
         margin: 0px;
     }
 
-    .subscribe-button {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
     .subscribe-form {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .subscribe-button {
+        margin-top: 16px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 
@@ -245,20 +251,26 @@
 
     /* TABLET */
 @media screen and (min-width: 768px) {
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .footer-logo {
         text-align: start;
     }
 
     .social-networks {
-
+        
     }
 
     .social-networks-text {
         text-align: left;
     }
 
-    .subscribe-text {
-        text-align: left;
+    .footer-information {
+        margin-right: 24px;
     }
 
     .footer-page-text {
@@ -272,8 +284,13 @@
         letter-spacing: 0.32px;
     }
 
-    .subscribe-container {
+    .subscribe-container { 
         align-self: self-start;
+        margin: 0;
+    }
+
+    .subscribe-text {
+        text-align: center;
     }
 
     .subscribe-form {
