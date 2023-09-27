@@ -184,9 +184,9 @@
         padding-left: 0;
     }
 
-    .benefits-list {
+    /* .benefits-list { 
         width: calc((100% - 72px) / 4);
-    }
+    } */
 
     .benefits-icon {
         display: flex;
