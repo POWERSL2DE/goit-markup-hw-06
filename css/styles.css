@@ -254,12 +254,12 @@
         padding: 32px 0;
     }
 
-    .social-list {
+    /* .social-list { 
         display: flex;
         justify-content: center;
         gap: 24px;
         margin-top: 8px;
-    }
+    } */
 
     .social-item {
         width: 40px;
@@ -396,7 +396,7 @@
 
 /* MODAL WINDOW */
 
-    .modal-container {
+    /* .modal-container { 
         position: fixed;
         top: 0;
         left: 0;
@@ -603,4 +603,5 @@
     .send-button:hover,
     .send-button:focus {
         background-color: #404BBF;
-    }
+    } */
+  

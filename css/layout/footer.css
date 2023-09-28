@@ -200,10 +200,12 @@
     .social-networks-list {
         justify-content: center;
         margin-bottom: 72px;
+        width: 288px;
     }
 
     .social-networks-text {
         text-align: center;
+        width: 288px;
     }
 
     .subscribe-container {
@@ -223,6 +225,7 @@
         width: 288px;
         height: 40px;
         margin: 0px;
+        margin-bottom: 16px;
     }
 
     .subscribe-form {
@@ -232,19 +235,18 @@
     }
 
     .subscribe-button {
-        margin-top: 16px;
-        margin-left: auto;
-        margin-right: auto;
+        /* margin-left: auto; 
+        margin-right: auto; */
     }
 
 
-     /* .modal-modal-container { 
-        display: none;
-    } */
-
-      .modal-window { 
+     .modal-modal-container { 
         display: none;
     } 
+
+      /* .modal-window {  
+        display: none;
+    } */
 }
 
 
@@ -311,8 +313,11 @@
 
     /* DESKTOP */
 @media screen and (min-width: 1158px) {
+    .footer-page {
+        height: 309px;
+    }
+
     .footer-container {
-        /* display: flex; */
         flex-wrap: nowrap;
         align-items: baseline;
     }
